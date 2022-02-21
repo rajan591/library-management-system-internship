@@ -1,0 +1,107 @@
+*{
+  margin-top:0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.title{
+
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+ 
+    padding-top: 60px;
+    line-height: 40%;
+    padding-bottom: 0px;
+   background-image: url(images/tuu.png);
+   background-size: 80px;
+   background-repeat: no-repeat;
+   background-position: 390px;
+
+   
+}
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(images/navbar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  /*border:1px solid pink;*/
+  /*border-radius: 50px 20px;*/
+   padding-left: 430px;
+   letter-spacing: 5px;
+  
+
+}
+
+li {
+  float: left;
+  /*border-left: 1px solid pink;*/
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+
+  padding: 10px 19px;
+  text-decoration: none;
+  border:2px solid white ;
+
+  background-color: #5c7b69;
+    border-radius:20px; 
+}
+
+li a:hover {
+  background-color:black;
+  border:3px solid lightgreen;
+  /*border-bottom: 3px solid white;*/
+  /*opacity: 0.5;*/
+    /*border-radius:20px;*/
+
+}
+
+.active {
+  background-color: #4CAF50;
+
+}
+
+.box{
+  
+    height:900px;
+    width: 100%;
+    padding-bottom: 0px;
+  
+    
+    
+    background-image: url("images/bok.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}.a{
+  padding-top: 20px;
+
+color: white;
+text-align: center;
+}
+
+
+
